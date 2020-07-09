@@ -33,7 +33,7 @@ impl Checker for MongoChecker {
             Ok(_) => CheckResponse::healthy("Connection to the mongo server is healthy"),
             Err(err) => CheckResponse::unhealthy(
                 &format!("Cannot get in touch with server: {}", err),
-                ACTION.into(),
+                ACTION,
                 &self.impact,
             ),
         }
