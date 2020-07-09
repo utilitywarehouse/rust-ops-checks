@@ -1,0 +1,12 @@
+[package]
+name = "ops-mongodb"
+description = "Ops checker for mongodb"
+repository = "https://github.com/utilitywarehouse/rust-ops-checks"
+version = "0.1.0"
+authors = ["rustaceans <rustaceans@utilitywarehouse.co.uk>"]
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[dependencies]
+mongodb = "1"
+ops-core = "0.2"

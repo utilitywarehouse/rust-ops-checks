@@ -1,0 +1,16 @@
+[package]
+name = "ops-grpc"
+description = "Ops checker for gRPC"
+repository = "https://github.com/utilitywarehouse/rust-ops-checks"
+version = "0.1.0"
+authors = ["rustaceans <rustaceans@utilitywarehouse.co.uk>"]
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[dependencies]
+ops-core = "0.2"
+prost = "0.6"
+tonic = "0.2"
+
+[build-dependencies]
+tonic-build = "0.2"
