@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "ops-grpc",
+    "ops-janus",
     "ops-mongodb",
 ]

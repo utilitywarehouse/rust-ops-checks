@@ -1,0 +1,12 @@
+[package]
+name = "ops-janus"
+description = "Ops checker for Janus"
+repository = "https://github.com/utilitywarehouse/rust-ops-checks"
+version = "0.1.0"
+authors = ["rustaceans <rustaceans@utilitywarehouse.co.uk>"]
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[dependencies]
+janus = "0.2"
+ops-core = "0.2"
