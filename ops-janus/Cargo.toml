@@ -8,5 +8,6 @@ license = "MIT OR Apache-2.0"
 edition = "2018"
 
 [dependencies]
-janus = "0.2"
+#janus = "0.2"
+janus = { git = "https://github.com/uw-labs/janus", branch = "tokio-1.0" }
 ops-core = "0.2"
